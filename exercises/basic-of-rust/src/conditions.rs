@@ -4,7 +4,10 @@
 // - another function call
 // - additional variables
 pub fn bigger(a: i32, b: i32) -> i32 {
-    todo!()
+    if a> b {
+        return a;
+    }
+    b
 }
 
 //Exercise 2
