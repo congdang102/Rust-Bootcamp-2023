@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, Rust Bootcamp by VBI Academy!");
+    println!("Hello, cong Bootcamp by VBI Academy!");
 }
+
+
