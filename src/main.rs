@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, Rust Bootcamp by VBI Academy!");
+    let x = String::from("hello, world");
+    let y $str = &x;
+    let z = x;
 }
