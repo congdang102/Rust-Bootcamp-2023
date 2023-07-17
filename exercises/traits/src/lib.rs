@@ -183,15 +183,16 @@ mod tests {
         let y = 8u8;
     
         // Draw x.
-        draw_with_box(__);
+        draw_with_box(Box::new(x));
     
         // Draw y.
         draw_with_ref(&y);
     }
+    
 
     #[test]
-    fn exercise6_should_work(){
-        let mut stack: Stack<u8> = Stack { items: Vec::new() };
+    fn exercise6_should_work() {
+        let mut stack: Stack = Stack { items: Vec::new() };
         assert!(stack.is_empty());
         stack.insert(1);
         stack.insert(2);
@@ -203,5 +204,6 @@ mod tests {
         assert_eq!(stack.remove(), None);
         assert!(stack.is_empty());
     }
+    
 
 }
